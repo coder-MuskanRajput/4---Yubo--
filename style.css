@@ -1,0 +1,478 @@
+@font-face {
+    font-family:grow ;
+    src: url(RightGrotesk-CompactBlack\ \(1\).otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.main
+{
+    width: 100%;
+    height: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    text-align: center;   
+   
+}
+.page1>h1{
+    font-size: 160px;
+    color: #FFE30A;
+    padding-top: 10%;
+    font-family:"grow";
+    line-height: 130px;
+}
+.nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0% 3%;
+    gap: 35%;
+    z-index: 999;
+
+}
+.nav-part1{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    line-height : 6px; 
+    /* gap: 25%; */
+    /* padding-left: 5%; */
+}
+.line1{
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    border-radius: 4px;
+}
+.line2{
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    border-radius: 4px;
+}
+.nav-part2{
+    width:400px;
+}
+.nav-part3{
+    background-color:#151400;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    padding-top: 1%;
+    gap: 100%;
+}
+.apple{
+    border-right: 1px solid white;
+    color: white;
+    padding-right: 5%;
+}
+.android{
+    padding-left: 5%;
+}
+.page2{
+    width: 100%;
+    height: 120%;
+    background-color:#FFE30A;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 2%; */
+    padding-top: 11%;
+    padding-left: 13%;
+}
+.tag>h1{
+    font-size: 130px;
+    font-family: grow;
+    font-weight:100;
+    line-height: 120px;
+}
+.Image{
+    width: 34%;
+    padding-left: 8%;
+}
+.tag1{
+    padding-top: 10%;
+}
+.text1{
+    width: 300px;
+    position: absolute;
+    top: 155%;
+    left: 42%;
+}
+.text2{
+    width: 180px;
+    position: absolute;
+    bottom: -123%;
+    left: 75%;
+}
+.text3{
+    width: 180px;
+    position: absolute;
+    bottom: -101%;
+    left: 78%;
+}
+.text4{
+    position: absolute;
+    left: 41%;
+    top: 185%;
+}
+.text5{
+    width: 200px;
+    position: absolute;
+    left: 70%;
+    top: 140%;
+}
+.page3{
+     width: 100%;
+     height: 120%;
+    background-color: #FFE30A;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    gap: 14%;
+    /* justify-content: space-around; */
+    color: #FFE30A;
+}
+.page3-part1{
+    /* font-weight: 700; */
+    font-family: grow;
+    font-size: 70px;
+    line-height: 110px;
+}
+.part2-text >p{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    padding-top: 14%;
+    padding-bottom: 8%;
+}
+.part2-text>button{
+    font-family: sans-serif;
+    padding:5% 10%;
+    font-weight: 800;
+    border-radius: 50px;
+    background-color: #FFE30A;
+    border: none;
+}
+.page4{
+    width: 100%;
+    height: 120%;
+    font-family: sans-serif;
+    background-color: #151400;
+    display: flex;
+    gap: 7%;
+    padding-left: 15%;
+    position: relative;
+}
+.page4-1 p{
+    color: white;
+    font-size: 30px;
+    padding-top: 40%;
+    padding-bottom: 10%;
+}
+.page4-2 img{
+     width: 460px;
+     border-radius: 5%;
+     position: relative;
+     top: -5%;
+}
+.page4-1 img{
+    width: 400px;   
+}
+.page4-1 button{
+    font-family: sans-serif;
+    font-weight: 800;
+    padding: 3% 10%;
+    background-color: #FFE30A;
+    border: none;
+    border-radius: 50px;
+}
+svg{
+   position: absolute;
+   font-size:85px;
+   font-weight: 600;
+   transform: rotate(180deg);
+   left: -2%;
+   top: 10%;
+}
+.page5{
+    width: 100%;
+    height: 50%;
+    font-family: grow;
+    background-color: #151400;
+    display: flex;
+    justify-content: space-around;
+}
+.page5>h2{
+    color: #FFE30A;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: 115px;
+    padding-top: 5%;
+}
+.page5 >button{
+      width: 12%;
+      height: 15%;
+      margin-top: 15%;
+      background-color: #FFE30A;
+      border: none;
+      border-radius: 50px;
+      font-weight: 800;
+      letter-spacing: 0;
+}
+.page6{
+    width: 100%;
+    height: 200%;
+    background-color: #151400;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: top;
+    font-family: grow;
+    justify-content:space-around;
+}
+.page6-box1{
+    width: 28%;
+    height: 35%;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 18%;
+    border-radius: 50px;
+    position :relative;
+}
+.page6-box1::after{
+    width: 100% ;
+    height: 100% ;
+    position: absolute;
+    border-radius: 50px;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    content: "";
+}
+.page6-boxes{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.boxes-box1{
+    width: 70%;
+    height: 35%;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    border-radius: 50px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.boxes-box1::after{
+    width: 100% ;
+    height: 100% ;
+    position: absolute;
+    border-radius: 50px;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    content: "";
+}
+.boxes-box2{
+    width: 55%;
+    height: 35%;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.boxes-box2::after{
+    width: 100% ;
+    height: 100% ;
+    position: absolute;
+    border-radius: 50px;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    content: "";
+}
+.page6>.page6-box1>.btn1{
+    margin-left: 70%;
+    margin-top: 5%;
+    background-color: #976BFF;
+    width: 70px;
+    height: 40px;
+    font-family: grow;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-box1>h1{
+    color: white;
+    margin-top: 70%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    font-size: 60px;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-box1>i{
+    margin-left: 8%;
+    color: white;
+    font-size:25px;
+    position: relative;
+    z-index:999;
+}
+.page6>.page6-boxes>.boxes-box1>.btn2{
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color:rgb(236, 71, 71);
+    width: 90px;
+    height: 45px;
+    font-family: grow;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-boxes>.boxes-box1>h1{
+    color: white;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    font-size: 50px;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-boxes>.boxes-box1>i{
+    margin-left: 8%;
+    color: white;
+    font-size:25px;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-boxes>.boxes-box2>.btn3{
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color:rgb(236, 71, 71);
+    width: 90px;
+    height: 45px;
+    font-family: grow;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-boxes>.boxes-box2>h1{
+    color: white;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 7%;
+    font-size: 50px;
+    position: relative;
+    z-index: 999;
+}
+.page6>.page6-boxes>.boxes-box2>i{
+    margin-left: 8%;
+    color: white;
+    font-size:25px;
+    position: relative;
+    z-index: 999;
+}
+.page7{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #976BFF;
+}
+.page7>.img-p7
+{
+   position: relative;
+   bottom: 40%;
+   left: 32%;
+}
+.page7>.page7-end
+{
+    display: flex;
+    gap: 10%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: -15%;
+    font-family: grow;
+}
+.page7>.page7-end>.about>h2  , .page7>.page7-end>.Community>h2 , .page7>.page7-end>.Safety>h2 , .page7>.page7-end>.privacy>h2 , .page7>.page7-end>.support>h2
+{
+   margin-bottom: 10%;
+   margin-top: 4%;
+   font-size:30px;
+}
+.page7>.page7-end>.about>p  , .page7>.page7-end>.Community>p , .page7>.page7-end>.Safety>p , .page7>.page7-end>.privacy>p , .page7>.page7-end>.support>p
+{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.icon{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.icon>i{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 1%;
+}
+.last{
+    display: flex;
+    gap: 1%;
+    font-family: grow;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.last>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.filler1 {
+    width: 7%;
+}
+.filler2{
+    width: 20%;
+}
